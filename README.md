@@ -75,7 +75,7 @@ The compiled codes are as follows:
 
 ### Arduino Sampling Values
 
-| VARIAC Voltages (Volt) | Analog Value of Arduino | DC Output of A0 Pin (Volt) |
+| VARIAC Voltage (Volt) | Analog Value of Arduino | DC Output of A0 Pin (Volt) |
 |:---------:|:----------:|:--------------:|
 |   130     | 265-283    | 1.26           |
 |   140     | 293-306    | 1.36           |
@@ -93,7 +93,21 @@ The compiled codes are as follows:
 |   230     | 519-552 |   2.43          |
 
 ---
+### Summary of Results
 
+| Input Voltage (Volt) | Output Voltage (Volt) | Tap-1 | Tap-2 | Tap-3 | Tap-4 | Tap-5 |
+|:---------:|:----------:|:--------------:|:---------:|:----------:|:--------------:|:--------------:|
+|   180     | 207.4      | OFF            |      OFF  | <ON style="color: green;">ON</ON>          | OFF            |        OFF     |
+|   190     | 212.8      | OFF            |      OFF  | <ON style="color: green;">ON</ON>        | OFF            |        OFF     |
+|   200     | 215.8      | OFF            |      <ON style="color: green;">ON</ON>    | OFF         | OFF               |        OFF     |
+|   210     | 218.9      | <ON style="color: green;">ON</ON>         |      OFF  | OFF        | OFF             |        OFF     |
+|   215     | 223      | OFF            |      OFF    | OFF         | <ON style="color: green;">ON</ON>              |        OFF     |
+|   220     | 225      | OFF            |      OFF    | OFF        | OFF              |        <ON style="color: green;">ON</ON>      |
+|   225     | 228      | OFF            |      OFF    | OFF        | OFF              |        <ON style="color: green;">ON</ON>      |
+|   230     | 228      | OFF            |      OFF    | OFF        | OFF              |        <ON style="color: green;">ON</ON>      |
+
+
+---
 
 
 
