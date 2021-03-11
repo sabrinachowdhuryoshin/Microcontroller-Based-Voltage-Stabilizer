@@ -10,23 +10,10 @@ Voltage stabilizers are nowadays one of the most important requirements for all 
   - [|   14.     | Bulb (Load)        | 60 Watt, 210 ~ 240V (50 Hz)   | 1 Unit |](#---14------bulb-load---------60-watt-210--240v-50-hz----1-unit-)
   - [Circuit Diagram](#circuit-diagram)
   - [Hardware Images](#hardware-images)
-    - [*Voltage Sampling Circuit*](#voltage-sampling-circuit)
-    - [*Wiring of the Transformer*](#wiring-of-the-transformer)
-    - [*Wiring of the Relay Module*](#wiring-of-the-relay-module)
-    - [*Final Hardware*](#final-hardware)
-
-   - [Summary of Results](#summary-of-results)
-- [Microcontroller Based Voltage Stabilizer](#microcontroller-based-voltage-stabilizer)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-  - [Specifications of Components](#specifications-of-components)
-  - [|   14.     | Bulb (Load)        | 60 Watt, 210 ~ 240V (50 Hz)   | 1 Unit |](#---14------bulb-load---------60-watt-210--240v-50-hz----1-unit-)
-  - [Circuit Diagram](#circuit-diagram)
-  - [Hardware Images](#hardware-images)
-    - [*Voltage Sampling Circuit*](#voltage-sampling-circuit)
-    - [*Wiring of the Transformer*](#wiring-of-the-transformer)
-    - [*Wiring of the Relay Module*](#wiring-of-the-relay-module)
-    - [*Final Hardware*](#final-hardware)
+    - [Voltage Sampling Circuit](#voltage-sampling-circuit)
+    - [Wiring of the Transformer](#wiring-of-the-transformer)
+    - [Wiring of the Relay Module](#wiring-of-the-relay-module)
+    - [Final Hardware](#final-hardware)
   
 
 ___
@@ -64,24 +51,19 @@ The required **components** are as follows:
 
 ---
 ## Hardware Images
-### *Voltage Sampling Circuit*
-
----
+### Voltage Sampling Circuit
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture3.jpg)
 
 ---
-### *Wiring of the Transformer*
-
+### Wiring of the Transformer
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture4.jpg)
 
 ---
-### *Wiring of the Relay Module*
-
+### Wiring of the Relay Module
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture5.jpg)
 
 ---
-### *Final Hardware*
-
+### Final Hardware
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture6.jpg)
 
 ---
