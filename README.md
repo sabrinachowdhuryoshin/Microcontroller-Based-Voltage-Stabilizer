@@ -45,7 +45,7 @@ The required **components** are as follows:
 |:---------:|:----------:|:--------------:|:--------:|
 |   1.      | Diode      | 1N4007         | 4 Unit |
 |   2.      | Resistor   | 1KΩ , 2KΩ      | 1 Unit Each |
-|   3.      | Capacitor  | 10 $\mu$f      | 1 Unit |
+|   3.      | Capacitor  | 10 uf      | 1 Unit |
 |   4.      | AC Supply (VARIAC)     | 180 V ~ 230 V (50 Hz)                            | 1 Unit |
 |   5.      | Transformer            | i/p : 220 V (50 Hz) ,  o/p : 6*2 V (600 mA)        | 1 Unit |
 |   6.      | Tap Changing Transformer            | i/p : 180 V - 230 V (50 Hz),  o/p : 220 V (2 A)        | 1 Unit |
