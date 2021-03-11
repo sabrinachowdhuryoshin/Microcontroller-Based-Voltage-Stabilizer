@@ -37,7 +37,6 @@ The **process chart** is as follows:
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture1.png)
 
 ---
-
 ## Specifications of Components
 The required **components** are as follows:
 
@@ -58,3 +57,6 @@ The required **components** are as follows:
 |   13.     | Digital Multimeter       |     | 1 Unit |
 |   14.     | Bulb (Load)        | 60 Watt, 210 ~ 240V (50 Hz)   | 1 Unit |
 ---
+
+## Circuit Diagram
+![Microcontroller-Based-Voltage-Stabilizer](./images/Picture2.png)
