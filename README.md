@@ -59,4 +59,4 @@ The required **components** are as follows:
 ---
 
 ## Circuit Diagram
-![Microcontroller-Based-Voltage-Stabilizer](./images/Picture2.png)
+![Microcontroller-Based-Voltage-Stabilizer](./images/Picture2.PNG)
