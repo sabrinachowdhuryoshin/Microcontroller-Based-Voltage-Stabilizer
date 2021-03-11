@@ -33,4 +33,4 @@ This project analyses a different stabilizing topology and a different design ba
 
 The process chart is as follows: 
 
-![Picture1](./Picture1.png)
+![Microcontroller-Based-Voltage-Stabilizer](./Picture1.png)
