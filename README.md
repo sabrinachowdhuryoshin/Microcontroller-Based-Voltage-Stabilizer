@@ -4,11 +4,9 @@ Voltage stabilizers are nowadays one of the most important requirements for all 
 ---
 
 ## Table of Contents
-- [Microcontroller Based Voltage Stabilizer](#microcontroller-based-voltage-stabilizer)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-  - [Specifications of Components](#specifications-of-components)
-  - [Circuit Diagram](#circuit-diagram)
+- [Getting Started](#getting-started)
+- [Specifications of Components](#specifications-of-components)
+- [Circuit Diagram](#circuit-diagram)
 - [Electrical Testing Results](#electrical-testing-results)
    - [Arduino Sampling Values](#arduino-sampling-values)
    - [Tap Changing Transformer Output](#tap-changing-transformer-output)
@@ -21,12 +19,14 @@ Voltage stabilizers are nowadays one of the most important requirements for all 
      - [Tap-07](#tap-07) 
   - [Summary of Results](#summary-of-results)
 - [Arduino Code](#arduino-code)
-- [Hardware Images](#hardware-images)
+- [Prototype Images](#prototype-images)
    - [Voltage Sampling Circuit](#voltage-sampling-circuit)
    - [Wiring of the Transformer](#wiring-of-the-transformer)
    - [Wiring of the Relay Module](#wiring-of-the-relay-module)
-   - [Final Hardware](#final-hardware)
-  
+   - [Final Prototype](#final-prototype)
+- [Limitations of the Design](#limitations-of-the-design)
+- [Assumptions of the Design](#assumptions-of-the-design)
+- [Conclusion](#conclusion)
 
 ___
 ## Getting Started
@@ -71,7 +71,50 @@ The compiled codes are as follows:
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture2.PNG)
 
 ---
-## Hardware Images
+## Electrical Testing Results
+
+### Arduino Sampling Values
+
+| VARIAC Voltages (Volt) | Analog Value of Arduino | DC Output of A0 Pin (Volt) |
+|:---------:|:----------:|:--------------:|
+|   130     | 265-283    | 1.26           |
+|   140     | 293-306    | 1.36           |
+|   150     | 313-335    | 1.48           |
+|   160     | 342-363    | 1.60           |
+|   170     | 369-394    | 1.73           |
+|   180     | 392-413    | 1.94           |
+|   190     | 419-434    | 1.96          |
+|   200     | 451-474 |    2.08          |
+|   210     | 472-506 |    2.20            |
+|   215     | 483-512 |    2.25           |
+|   220     | 488-525 |    2.32            |
+|   225     | 507-542 |     2.37          |
+|   228     | 511-546 |    2.41           |
+|   230     | 519-552 |   2.43          |
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Prototype Images
 ### *Voltage Sampling Circuit*
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture3.jpg)
 
@@ -84,7 +127,10 @@ The compiled codes are as follows:
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture5.jpg)
 
 ---
-### *Final Hardware*
+### *Final Prototype*
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture6.jpg)
 
 ---
+
+## Conclusion
+Arduino detects the variation of the transformer's output voltage and then provides necessary instructions to the VARIAC. The relay changes the tap position if this variation is out of the permissible range. That's how the voltage of the system maintains its nominal value. A more precise design of the tap changing transformer is required to regulate the power more efficiently.
