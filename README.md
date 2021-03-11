@@ -33,7 +33,4 @@ This project analyses a different stabilizing topology and a different design ba
 
 The process chart is as follows: 
 
-
-
-
-![Getting Started](./Picture1.png)
+![Picture1](./Picture1.png)
