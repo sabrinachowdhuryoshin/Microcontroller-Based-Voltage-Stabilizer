@@ -29,4 +29,11 @@ Voltage stabilizers are nowadays one of the most important requirements for all 
 
 ___
 ## Getting Started
-This project analyses a different stabilizing topology and a different design based on tapping the relay for different supply voltages. The purpose is to achieve a nearly 220V value for each variation of supply to drive the load risk freely, thus stabilizing the output voltage. The process chart is as follows:
+This project analyses a different stabilizing topology and a different design based on tapping the relay for different supply voltages. The purpose is to achieve a nearly 220V value for each variation of supply to drive the load risk freely, thus stabilizing the output voltage. 
+
+The process chart is as follows: 
+
+
+
+
+![Getting Started](./Picture1.png)
