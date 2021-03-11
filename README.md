@@ -21,8 +21,6 @@ Voltage stabilizers are nowadays one of the most important requirements for all 
      - [Tap-07](#tap-07) 
   - [Summary of Results](#summary-of-results)
 - [Arduino Code](#arduino-code)
-   - [Voltage Sampling Code](#voltage-sampling-code)
-   - [Final Code](#final-code)
 - [Hardware Images](#hardware-images)
    - [Voltage Sampling Circuit](#voltage-sampling-circuit)
    - [Wiring of the Transformer](#wiring-of-the-transformer)
@@ -58,6 +56,15 @@ The required **components** are as follows:
 |   12.     | Chords and wires       |     | |
 |   13.     | Digital Multimeter       |     | 1 Unit |
 |   14.     | Bulb (Load)        | 60 Watt, 210 ~ 240V (50 Hz)   | 1 Unit |
+---
+
+## Arduino Code
+The compiled codes are as follows:
+
+- [Voltage Sampling Code](https://github.com/sabrina-oshin/Microcontroller-Based-Voltage-Stabilizer/blob/main/voltage_sampling/voltage_sampling.ino)
+
+- [Final Code](https://github.com/sabrina-oshin/Microcontroller-Based-Voltage-Stabilizer/blob/main/final_code/final_code.ino)
+
 ---
 
 ## Circuit Diagram
