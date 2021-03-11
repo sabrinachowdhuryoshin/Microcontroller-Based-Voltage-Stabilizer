@@ -73,11 +73,11 @@ The required **components** are as follows:
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture4.jpg)
 
 ---
-### Wiring of the Relay Module
+### *Wiring of the Relay Module*
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture5.jpg)
 
 ---
-### Final Hardware
+### *Final Hardware*
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture6.jpg)
 
 ---
