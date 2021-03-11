@@ -35,3 +35,26 @@ This project analyses a different stabilizing topology and a different design ba
 The **process chart** is as follows: 
 
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture1.png)
+
+---
+
+## Specifications of Components
+The required **components** are as follows:
+
+| Serial No.| Components | Specifications | Quantity |
+|:---------:|:----------:|:--------------:|:--------:|
+|   1.      | Diode      | 1N4007         | 4 Unit |
+|   2.      | Resistor   | 1KΩ , 2KΩ      | 1 Unit Each |
+|   3.      | Capacitor  | 10 $\mu$f      | 1 Unit |
+|   4.      | AC Supply (VARIAC)     | 180 V ~ 230 V (50 Hz)                            | 1 Unit |
+|   5.      | Transformer            | i/p : 220 V (50 Hz) ,  o/p : 6*2 V (600 mA)        | 1 Unit |
+|   6.      | Tap Changing Transformer            | i/p : 180 V - 230 V (50 Hz),  o/p : 220 V (2 A)        | 1 Unit |
+|   7.      | Arduino Board            | Nano       | 1 Unit |
+|   8.      | Bulk Converter          | i/p : 12 V (DC) , o/p : 5 V (DC)      | 1 Unit |
+|   9.      | Relay Module          | 8 Relay Module (Operating Voltage: 5V DC)    | 1 Unit |
+|   10.     | LED (Red)         | 1.8 V    | 1 Unit |
+|   11.     | Bread Board        |     | 1 Unit |
+|   12.     | Chords and wires       |     | |
+|   13.     | Digital Multimeter       |     | 1 Unit |
+|   14.     | Bulb (Load)        | 60 Watt, 210 ~ 240V (50 Hz)   | 1 Unit |
+---
