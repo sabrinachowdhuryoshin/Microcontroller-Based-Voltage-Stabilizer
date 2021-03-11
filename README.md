@@ -9,13 +9,14 @@ Voltage stabilizers are nowadays one of the most important requirements for all 
 - [Electrical Testing Results](#electrical-testing-results)
    - [Arduino Sampling Values](#arduino-sampling-values)
    - [Tap Changing Transformer Output](#tap-changing-transformer-output)
-     - [Tap-01 (Yellow)](#tap-01-yellow)
-     - [Tap-02 (Orange)](#tap-02-orange)
-     - [Tap-03 (White)](#tap-03-white)
-     - [Tap-04 (Black)](#tap-04-black)
-     - [Tap-05 (Purple)](#tap-05-purple)
-     - [Tap-06 (Blue)](#tap-06-blue)
-     - [Tap-07 (Yellow)](#tap-07-yellow)
+     - [Tap-01](#tap-01) 
+     - [Tap-02](#tap-01) 
+     - [Tap-03](#tap-01) 
+     - [Tap-04](#tap-01) 
+     - [Tap-05](#tap-01) 
+     - [Tap-06](#tap-01) 
+     - [Tap-07](#tap-01) 
+
    - [Summary of Results](#summary-of-results)
 - [Arduino Code](#arduino-code)
    - [Voltage Sampling Code](#voltage-sampling-code)
@@ -31,6 +32,6 @@ ___
 ## Getting Started
 This project analyses a different stabilizing topology and a different design based on tapping the relay for different supply voltages. The purpose is to achieve a nearly 220V value for each variation of supply to drive the load risk freely, thus stabilizing the output voltage. 
 
-The process chart is as follows: 
+The **process chart** is as follows: 
 
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture1.png)
