@@ -97,7 +97,7 @@ The compiled codes are as follows:
 
 The output voltages of the tap changing transformer are as follows:
 
-**Tap-01**
+#### Tap-01
 
 | VARIAC Voltage (Volt)  | Tap Changing Transformer Output (Volt) | 
 |:---------:|:----------:|
