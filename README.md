@@ -116,6 +116,25 @@ The output voltages of the tap changing transformer are as follows:
 
 
 ---
+#### Tap-02
+
+| VARIAC Voltage (Volt)  | Tap Changing Transformer Output (Volt) | 
+|:---------:|:----------:|
+|   150     | 164.4      |
+|   160     | 174.4      |
+|   170     | 185.4      |
+|   180     | 196.5      |
+|   190     | 206.9      |
+|   200     | 218.5      |
+|   210     | 229.1      |
+|   215     | 234.4      |
+|   220     | 240.7      |
+|   225     | 245.5      |
+|   228     | 248.3      |
+|   230     | 250.9      |
+
+
+---
 ### Summary of Results
 
 | Input Voltage (Volt) | Output Voltage (Volt) | Tap-1 | Tap-2 | Tap-3 | Tap-4 | Tap-5 |
