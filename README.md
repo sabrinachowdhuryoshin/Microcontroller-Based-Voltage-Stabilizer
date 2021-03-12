@@ -68,7 +68,7 @@ The compiled codes are as follows:
 ---
 
 ## Circuit Diagram
-![Microcontroller-Based-Voltage-Stabilizer](./images/Picture2.PNG)
+![Microcontroller-Based-Voltage-Stabilizer](./images/Picture2.png)
 
 ---
 ## Electrical Testing Results
