@@ -173,6 +173,65 @@ The output voltages of the tap changing transformer are as follows:
 
 
 ---
+#### Tap-05
+
+| VARIAC Voltage (Volt)  | Tap Changing Transformer Output (Volt) | 
+|:---------:|:----------:|
+|   150     | 143.3      |
+|   160     | 152.3      |
+|   170     | 162.6      |
+|   180     | 172.2      |
+|   190     | 181.8      |
+|   200     | 190.3      |
+|   210     | 200.1      |
+|   215     | 205.5      |
+|   220     | 210.7      |
+|   225     | 214.3      |
+|   228     | 217.6      |
+|   230     | 219.4      |
+
+
+---
+
+#### Tap-06
+
+| VARIAC Voltage (Volt)  | Tap Changing Transformer Output (Volt) | 
+|:---------:|:----------:|
+|   150     | 136.1      |
+|   160     | 144.6      |
+|   170     | 155.0     |
+|   180     | 163.5      |
+|   190     | 172.7      |
+|   200     | 182.0     |
+|   210     | 191.2      |
+|   215     | 194.8      |
+|   220     | 200.0     |
+|   225     | 204.2      |
+|   228     | 207.2      |
+|   230     | 209.1     |
+
+
+---
+
+#### Tap-07
+
+| VARIAC Voltage (Volt)  | Tap Changing Transformer Output (Volt) | 
+|:---------:|:----------:|
+|   150     | 129.1      |
+|   160     | 138.2      |
+|   170     | 146.7      |
+|   180     | 155.3      |
+|   190     | 163.8      |
+|   200     | 173.8      |
+|   210     | 180.6      |
+|   215     | 185.3      |
+|   220     | 190.2      |
+|   225     | 194.4      |
+|   228     | 196.2      |
+|   230     | 198.2      |
+
+
+---
 ### Summary of Results
 
 | Input Voltage (Volt) | Output Voltage (Volt) | Tap-1 | Tap-2 | Tap-3 | Tap-4 | Tap-5 |
@@ -209,19 +268,19 @@ The output voltages of the tap changing transformer are as follows:
 
 
 ## Prototype Images
-### *Voltage Sampling Circuit*
+### Voltage Sampling Circuit
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture3.jpg)
 
 ---
-### *Wiring of the Transformer*
+### Wiring of the Transformer
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture4.jpg)
 
 ---
-### *Wiring of the Relay Module*
+### Wiring of the Relay Module
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture5.jpg)
 
 ---
-### *Final Prototype*
+### Final Prototype
 ![Microcontroller-Based-Voltage-Stabilizer](./images/Picture6.jpg)
 
 ---
