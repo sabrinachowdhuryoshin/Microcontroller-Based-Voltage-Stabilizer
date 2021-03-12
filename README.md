@@ -93,6 +93,26 @@ The compiled codes are as follows:
 |   230     | 519-552 |   2.43          |
 
 ---
+### Tap Changing Transformer Output
+
+## Tap-01
+
+| VARIAC Voltage (Volt)  | Tap Changing Transformer Output (Volt) | 
+|:---------:|:----------:|
+|   150     | 157.4      |
+|   160     | 167.1      |
+|   170     | 177.7      |
+|   180     | 188.3      |
+|   190     | 198.9      |
+|   200     | 209.0      |
+|   210     | 219.8      |
+|   215     | 224.3      |
+|   220     | 230.2      |
+|   225     | 234.9      |
+|   228     | 238.2      |
+|   230     | 240.4      |
+
+---
 ### Summary of Results
 
 | Input Voltage (Volt) | Output Voltage (Volt) | Tap-1 | Tap-2 | Tap-3 | Tap-4 | Tap-5 |
