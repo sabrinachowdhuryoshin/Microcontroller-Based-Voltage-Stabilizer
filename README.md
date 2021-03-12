@@ -26,7 +26,7 @@ Voltage stabilizers are nowadays one of the most important requirements for all 
    - [Final Prototype](#final-prototype)
 - [Limitations of the Design](#limitations-of-the-design)
 - [Assumptions of the Design](#assumptions-of-the-design)
-- [Conclusion](#conclusion)
+- [Discussion](#discussion)
 
 ___
 ## Getting Started
@@ -68,7 +68,7 @@ The compiled codes are as follows:
 ---
 
 ## Circuit Diagram
-![Microcontroller-Based-Voltage-Stabilizer](./images/Picture2.png)
+![Microcontroller-Based-Voltage-Stabilizer](./images/Picture2.PNG)
 
 ---
 ## Electrical Testing Results
@@ -285,5 +285,5 @@ The output voltages of the tap changing transformer are as follows:
 
 ---
 
-## Conclusion
-Arduino detects the variation of the transformer's output voltage and then provides necessary instructions to the VARIAC. The relay changes the tap position if this variation is out of the permissible range. That's how the voltage of the system maintains its nominal value. A more precise design of the tap changing transformer is required to regulate the power more efficiently.
+## Discussion
+Arduino detects the variation of the transformer's output voltage and then provides necessary instructions to the VARIAC. The relay changes the tap position if this variation is out of the permissible range. That's how the voltage of the system maintains its nominal value. The five tap settings (Tap 1, 2,3,4, and 5) of the tap changing transformer correspond to 210 V, 200 V, 190 V, 215 V, and 230 V, respectively. The input voltage to the transformer switches between 180 V to 230 V and the output remains 220V each time. The load current is 2A. At this condition, the tap settings will be ON for the respective taps having voltages similar to the input voltages (Tap 1 in ON when the voltage is 210 V when others remain OFF). The prototype reliability is tested by measuring the output voltage of the transformer when the input voltage increases steadily. Each time the tap changing transformer changes its tap changing settings, the output voltages are recorded. The recorded values are then compared with the target voltage 220 V to ensure the stable driving of the load. A more precise design of the tap changing transformer is required to regulate the power more efficiently.
