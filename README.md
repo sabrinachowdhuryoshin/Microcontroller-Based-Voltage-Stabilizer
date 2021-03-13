@@ -24,9 +24,9 @@ Voltage stabilizers are nowadays one of the most important requirements for all 
    - [Wiring of the Transformer](#wiring-of-the-transformer)
    - [Wiring of the Relay Module](#wiring-of-the-relay-module)
    - [Final Prototype](#final-prototype)
-- [Limitations of the Design](#limitations-of-the-design)
 - [Assumptions of the Design](#assumptions-of-the-design)
 - [Discussion](#discussion)
+- [Limitations of the Design](#limitations-of-the-design)
 
 ___
 ## Getting Started
@@ -286,4 +286,18 @@ The output voltages of the tap changing transformer are as follows:
 ---
 
 ## Discussion
-Arduino detects the variation of the transformer's output voltage and then provides necessary instructions to the VARIAC. The relay changes the tap position if this variation is out of the permissible range. That's how the voltage of the system maintains its nominal value. The five tap settings (Tap 1, 2,3,4, and 5) of the tap changing transformer correspond to 210 V, 200 V, 190 V, 215 V, and 230 V, respectively. The input voltage to the transformer switches between 180 V to 230 V and the output remains 220V each time. The load current is 2A. At this condition, the tap settings will be ON for the respective taps having voltages similar to the input voltages (Tap 1 in ON when the voltage is 210 V when others remain OFF). The prototype reliability is tested by measuring the output voltage of the transformer when the input voltage increases steadily. Each time the tap changing transformer changes its tap changing settings, the output voltages are recorded. The recorded values are then compared with the target voltage 220 V to ensure the stable driving of the load. A more precise design of the tap changing transformer is required to regulate the power more efficiently.
+Arduino detects the variation of the transformer's output voltage and then provides necessary instructions to the VARIAC. The relay changes the tap position if this variation is out of the permissible range. That's how the voltage of the system maintains its nominal value. The five tap settings (Tap 1, 2,3,4, and 5) of the tap changing transformer correspond to 210 V, 200 V, 190 V, 215 V, and 230 V, respectively. The input voltage to the transformer switches between 180 V to 230 V and the output remains 220 V each time. The load current is 2 A. At this condition, the tap settings will be ON for the respective taps having voltages similar to the input voltages (Tap 1 in ON when the voltage is 210 V when others remain OFF). The prototype reliability is tested by measuring the output voltage of the transformer when the input voltage increases steadily. Each time the tap changing transformer changes its tap changing settings, the output voltages are recorded. The recorded values are then compared with the target voltage 220 V to ensure the stable driving of the load. A more precise design of the tap changing transformer is required to regulate the power more efficiently.
+
+---
+
+## Limitations of the Design
+
+- The design uses a high-value capacitor. Thus, it takes some time for the capacitor to discharge fully after being switched off.
+- The AC-DC conversion is not so accurate in the design. Due to the existence of the ripple voltage, the output voltage is not so error-free.
+- The input voltage range plays a vital role in providing a constant voltage output across the capacitor. If this range exceeds, the output voltage rises or falls. It may give rise to the quantization error. 
+- The input voltage of the Arduino analog pin A0 is ~ 2.32 V DC.  When the input voltage of the transformer is 220 V AC. The A0 voltage should remain in the range of 4.50 ~ 4.75 V DC. That means there’s a good amount of quantization error exists in this design.
+- During the experiment, the transformer (i/p 220 V, o/p 6 V*2) became too weak to drive the relay module. Thus, we had to use a DC 12 V adapter and a 5 V DC bulk converter to support the relay module separately.
+- A rapid fluctuation of switching occurs between the taps of the tap changing transformer. The erroneous manufacturing process of the transformer can be held responsible for this.
+- The tap voltage of two of them remains in a close range (below 180 V). The design excludes them. As a result, three of the relay module remains idle during the prototyping process. 
+
+---
