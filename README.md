@@ -296,8 +296,8 @@ Arduino detects the variation of the transformer's output voltage and then provi
 - The AC-DC conversion is not so accurate in the design. Due to the existence of the ripple voltage, the output voltage is not so error-free.
 - The input voltage range plays a vital role in providing a constant voltage output across the capacitor. If this range exceeds, the output voltage rises or falls. It may give rise to the quantization error. 
 - The input voltage of the Arduino analog pin A0 is ~ 2.32 V DC.  When the input voltage of the transformer is 220 V AC. The A0 voltage should remain in the range of 4.50 ~ 4.75 V DC. That means there’s a good amount of quantization error exists in this design.
-- During the experiment, the transformer (i/p 220 V, o/p 6 V*2) became too weak to drive the relay module. Thus, we had to use a DC 12 V adapter and a 5 V DC bulk converter to support the relay module separately.
 - During the experiment, the transformer (i/p 220 V, o/p 6 V*2) became too weak to drive the relay module. Thus,  the design uses a DC 12 V adapter and a 5 V DC bulk converter to support the relay module separately.
+- A rapid fluctuation of switching occurs between the taps of the tap changing transformer. The erroneous manufacturing process of the transformer can be held responsible for this.
 - The tap voltage of two of them remains in a close range (below 180 V). So, the design excludes them. As a result, three of the relay module remains idle during the prototyping process. 
 
 ---
